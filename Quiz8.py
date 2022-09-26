@@ -13,6 +13,6 @@ def q(m, matrix): #define the function that I will use in this quiz.
 matrix=[] #begin empty list to recieve every list that will produce list of list
 m=int(input("Put your order to make the square matrix (m): ")) #input value what I use to make the square matrix
 q(m,matrix) #this recall the function that relate between empty matrix and count of row or column: n(row) equals n(column)
-matrix=np.array(matrix).reshape(R,R) # when array function works, list will be aggregated about what's column and row by matrix's list
+matrix=np.array(matrix).reshape(m,m) # when array function works, list will be aggregated about what's column and row by matrix's list
 # we will reshape it on general the square matrix
 print(matrix)
